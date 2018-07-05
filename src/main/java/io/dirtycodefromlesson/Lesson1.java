@@ -1,4 +1,4 @@
-package io.lessoncode;
+package io.dirtycodefromlesson;
 
 import java.io.*;
 import java.nio.charset.Charset;
