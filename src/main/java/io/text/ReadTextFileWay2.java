@@ -10,6 +10,7 @@ import java.util.stream.Stream;
 public class ReadTextFileWay2 {
     public static void main(String[] args) throws IOException {
         File file = new File("./data", "names.txt");
+
         Stream<String> lines = new BufferedReader(new FileReader(file)).lines();
         lines.forEach(new Consumer<String>() {
             @Override
