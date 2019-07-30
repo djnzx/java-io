@@ -4,7 +4,7 @@ import java.io.*;
 
 public class WritePrimitives {
     public static void main(String[] args) throws IOException {
-        File file = new File("./data", "file2.bin");
+        File file = new File("./data", "file3.bin");
         ObjectOutputStream oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(file)));
         boolean b1=true;
         oos.writeBoolean(b1);
@@ -20,6 +20,9 @@ public class WritePrimitives {
         oos.writeFloat(f1);
         double d1=2.5;
         oos.writeDouble(d1);
+
+        // write object
+        oos.writeObject(new Person("Alex"));
 
         oos.close();
     }
