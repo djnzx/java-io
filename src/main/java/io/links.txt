@@ -1,0 +1,5 @@
+https://docs.oracle.com/javase/tutorial/essential/io/
+https://www.tutorialspoint.com/java/java_files_io.htm
+https://www.geeksforgeeks.org/file-class-in-java/
+https://www.javatpoint.com/java-nio
+https://www.tutorialspoint.com/java_nio/java_nio_file.htm
