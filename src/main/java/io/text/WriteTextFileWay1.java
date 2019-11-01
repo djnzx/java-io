@@ -2,6 +2,7 @@ package io.text;
 
 import java.io.*;
 import java.util.Arrays;
+import java.util.List;
 import java.util.function.Consumer;
 
 public class WriteTextFileWay1 {
@@ -10,7 +11,8 @@ public class WriteTextFileWay1 {
         BufferedWriter w = new BufferedWriter(new FileWriter(file));
         //this line if you would like to append the content to end of the file
         //BufferedWriter w = new BufferedWriter(new FileWriter(file, true));
-        Arrays.asList("line1","line2","line3","Привет").forEach(new Consumer<String>() {
+        List<String> strings = Arrays.asList("line1", "line2", "line3", "Привет");
+        strings.forEach(new Consumer<String>() {
             @Override
             public void accept(String s) {
                 try {

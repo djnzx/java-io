@@ -5,7 +5,8 @@ import java.io.*;
 public class WriteBytes {
     public static void main(String[] args) throws IOException {
         File file = new File("./data", "file.bin");
-        BufferedOutputStream os = new BufferedOutputStream(new FileOutputStream(file));
+        FileOutputStream fos = new FileOutputStream(file);
+        BufferedOutputStream os = new BufferedOutputStream(fos, 65000);
         // write one byte
         os.write(0x05);
         // write 10 bytes

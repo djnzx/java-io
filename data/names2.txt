@@ -1,8 +1,0 @@
-line1
-line2
-line3
-Привет
-line1
-line2
-line3
-Привет
