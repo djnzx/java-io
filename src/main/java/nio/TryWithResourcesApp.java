@@ -16,9 +16,12 @@ public class TryWithResourcesApp {
   public static void main(String[] args) throws IOException {
     String path = "1.txt";
 
-    try (BufferedReader br = new BufferedReader(new FileReader(path)))
+    try (
+        BufferedReader br1 = new BufferedReader(new FileReader(path));
+        BufferedReader br2 = new BufferedReader(new FileReader(path));
+    )
     {
-      String readed = br.readLine();
+      String readed = br1.readLine();
       System.out.println(readed);
     }
     // br will be closed automatically
