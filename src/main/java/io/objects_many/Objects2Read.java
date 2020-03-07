@@ -15,6 +15,7 @@ public class Objects2Read {
     int readed2 = ois.readInt(); // Int
     Object readed3 = ois.readObject(); // Object
     String readed3s = (String)readed3;
+    String readed4s = (String)ois.readObject();
 
     ois.close();
     fis.close();
@@ -23,5 +24,6 @@ public class Objects2Read {
     System.out.println(readed1);
     System.out.println(readed2);
     System.out.println(readed3s);
+    System.out.println(readed4s);
   }
 }

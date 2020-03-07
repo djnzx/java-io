@@ -13,8 +13,8 @@ public class Objects1Write {
 
     oos.writeBoolean(true);
     oos.writeInt(42);
-    oos.writeObject("Hello");
-    oos.writeObject("Hello");
+    oos.writeObject("Hello1");
+    oos.writeObject("Hello2");
 
     oos.close();
     fos.close();
