@@ -1,4 +1,4 @@
-package io.objects1;
+package io.objects_one;
 
 import java.io.*;
 import java.util.ArrayList;

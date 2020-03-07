@@ -1,4 +1,4 @@
-package io.objects2_doesntwork;
+package io.objects_many;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -7,7 +7,7 @@ import java.io.ObjectInputStream;
 
 public class Objects2Read {
   public static void main(String[] args) throws IOException, ClassNotFoundException {
-    File file = new File("objects.bin");
+    File file = new File("objects2.bin");
     FileInputStream fis = new FileInputStream(file);
     ObjectInputStream ois = new ObjectInputStream(fis);
 

@@ -1,4 +1,4 @@
-package io.objects2_doesntwork;
+package io.objects_many;
 
 import java.io.File;
 import java.io.FileOutputStream;
