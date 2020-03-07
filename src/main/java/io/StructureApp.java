@@ -44,7 +44,9 @@ public class StructureApp {
 
   public static void main(String[] args) throws IOException {
     List<String> data = read("myAwesomeData.txt");
+
     List<String> processed = process(data);
+
     write(processed, "myBrilliantData.txt");
   }
 
