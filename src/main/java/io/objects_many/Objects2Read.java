@@ -20,7 +20,6 @@ public class Objects2Read {
     ois.close();
     fis.close();
 
-
     System.out.println(readed1);
     System.out.println(readed2);
     System.out.println(readed3s);
