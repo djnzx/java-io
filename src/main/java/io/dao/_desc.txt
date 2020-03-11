@@ -1,0 +1,7 @@
+Entity
+Model
+Object
+Data
+Information
+
+DAO - data access object pattern
