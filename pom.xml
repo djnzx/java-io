@@ -51,7 +51,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jetty.version>9.4.6.v20170531</jetty.version>
+        <jetty.version>10.0.10</jetty.version>
     </properties>
 
     <dependencies>
